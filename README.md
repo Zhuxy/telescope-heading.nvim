@@ -64,6 +64,8 @@ telescope.setup({
     extensions = {
         heading = {
             treesitter = true,
+            -- Default to showing all markdown heading levels (1-6)
+            markdown_headings = {1, 2, 3, 4, 5, 6},
         },
     },
 })
